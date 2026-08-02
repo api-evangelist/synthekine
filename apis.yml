@@ -1,7 +1,28 @@
 aid: synthekine
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synthekine.png
 name: Synthekine
-description: Synthekine is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Synthekine is a clinical-stage biotechnology company discovering, developing,
+  and commercializing the next generation of selective cytokine therapeutics.
+  The company believes cytokine therapeutics engineered to be selective can
+  fundamentally change the treatment paradigm for cancer and inflammatory
+  disease. Synthekine's engineering platforms (including its surrogate/partial
+  agonist and orthogonal cytokine-receptor approaches) are used to design
+  cytokines and cytokine-based cell therapies with improved selectivity and
+  tolerability. Backed by Canaan Partners and added to the API Evangelist
+  network as a company profile; Synthekine is a therapeutics developer and
+  publishes no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/synthekine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Cytokines
+- Cell Therapy
+- Oncology
+- Immunology
+- Drug Development
 apis: []
+common:
+- type: DomainSecurity
+  url: security/synthekine-domain-security.yml
+- type: Website
+  url: https://www.synthekine.com
+- type: PrivacyPolicy
+  url: https://www.synthekine.com/privacy-policy/
+- type: Blog
+  url: https://www.synthekine.com/news/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/synthekine/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
